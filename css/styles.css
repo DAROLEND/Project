@@ -1,0 +1,125 @@
+* { 
+    margin: 0; 
+    padding: 0; box-sizing: border-box; 
+}
+body {
+    font-family: "Roboto Flex", sans-serif; 
+} 
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 40px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo img { 
+    width: 100px; 
+    height: auto; 
+    margin-left: 375px ;
+} 
+nav ul {
+    margin-right: 375px;
+    display: flex; 
+    list-style: none; 
+} 
+nav ul li { 
+    margin-left: 10px;
+}
+nav ul li a { 
+    text-decoration: none; 
+    color: #333; font-size: 16px; 
+    font-weight: 200; 
+    padding: 10px 25px; 
+    border-radius: 8px;
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s; 
+    font-family: "Roboto Flex", sans-serif; 
+}
+nav ul li a:hover 
+{ background-color: #08dada; 
+    color: #fff; 
+    border-radius: 8px;
+}
+
+.try-design {
+    text-align: center;
+    background-color: #08dada;
+    color: #fff;
+    padding: 230px 20px 210px 20px;
+    border-radius: 12px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+.try-design p {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-family: "Roboto Flex", sans-serif; 
+}
+
+.try-design button {
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.try-design button:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 80%;
+
+}
+
+.service-item {
+    text-align: center;
+    width: 20%;
+}
+
+.service-item .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.services-button {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.services-button button {
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.services-button button:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+.HEADS{
+    font-size: 14px;
+    font-weight: 550;
+    margin-bottom: 30px;
+    font-family: "Roboto Flex", sans-serif;
+}
+.TEXT{
+    color:#929797;
+    font-size: 13px;
+    text-align: center;
+}
